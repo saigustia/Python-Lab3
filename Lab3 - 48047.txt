@@ -1,0 +1,38 @@
+Cara Push Ke Repo
+
+git bash di folder yang kita mau
+
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin https://github.com/saigustia/Python-Lab3.git
+git push -u -f origin master
+
+
+CLONE
+
+git clone https://github.com/saigustia/Python-Lab3.git
+
+
+Branch
+
+git checkout -b another-branch
+git push origin another-branch
+
+
+Pergi ke branch
+make file:
+cp ../3D\ drawings.pdf .
+git add
+git commit -m "my second"
+git push --set-upstream origin another-branch
+
+
+pull request di github
+
+
+
+
+
+
+
